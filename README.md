@@ -60,6 +60,8 @@ You may run the script `mycurses.py` directly for a demo on how to use the text-
 		- Use `\help` for a list of available commands
 		- Use `\help cmd` to learn more about any `cmd`
 
+	<br>
+
 	<img src="./screenshots/file-sharing.jpg" width="600px">
 
 	*Figure 2: Accepting file requests directly from another user*
