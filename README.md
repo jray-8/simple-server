@@ -4,6 +4,9 @@ A Python-based chat client-server application designed for communication between
 
 The system features both a custom-built terminal UI (on top of `ncurses`) and a lightweight network protocol for secure and reliable message exchanges.
 
+<img src="./screenshots/chat.jpg" width="600px">
+
+*Figure 1: Real-time chat with users over the network*
 
 ### Features
 
@@ -20,6 +23,7 @@ The system features both a custom-built terminal UI (on top of `ncurses`) and a 
 - Dual-socket architecture for message & command handling (for advanced interactions with other users)
 
 - Smart input system: supports prompts, timeouts, and binary (Y/N) responses
+
 
 ## Usage
 
@@ -55,6 +59,10 @@ You may run the script `mycurses.py` directly for a demo on how to use the text-
 
 		- Use `\help` for a list of available commands
 		- Use `\help cmd` to learn more about any `cmd`
+
+	<img src="./screenshots/file-sharing.jpg" width="600px">
+
+	*Figure 2: Accepting file requests directly from another user*
 
 
 ## Architecture
