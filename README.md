@@ -37,7 +37,9 @@ You may run the script `mycurses.py` directly for a demo on how to use the text-
 
 1. Run the Simple Server:
 
-		python simple_server.py
+	```
+	python simple_sever.py
+	```
 		
 	- Press `Alt + D` to open the server's command box
 
@@ -45,11 +47,20 @@ You may run the script `mycurses.py` directly for a demo on how to use the text-
 
 1. Launch a Simple Client:
 
-		python simple_client.py
+	```
+	python simple_client.py
+	```
 
 	Follow the on-screen instructions for authentication and communication.
 
 	- When you run the client, it will attempt to connect to the server locally
+
+		- By default, the client connects to the server's local IP (LAN).
+		- To connect remotely, you can use the `--remote` flag with the server's WAN IP address, provided port forwarding is set up on the server:
+	
+			```
+			python simple_client.py --remote <WAN-IP-address>
+			```
 
 	- Upon connection, the server will request a unique and valid username
 
@@ -60,7 +71,7 @@ You may run the script `mycurses.py` directly for a demo on how to use the text-
 		- Use `\help` for a list of available commands
 		- Use `\help cmd` to learn more about any `cmd`
 
-   	![File-sharing](./screenshots/file-sharing.jpg)
+	![File-sharing](./screenshots/file-sharing.jpg)
 
 	*Figure 2: Accepting file requests directly from another user*
 
